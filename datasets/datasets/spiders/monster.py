@@ -3,7 +3,7 @@ from urllib.parse import urljoin
 from scrapy import Request, Spider
 
 class SpiderMonster(Spider):
-    name = "jobs"
+    name = "jobs_"
     domain = "https://fr.indeed.com/"
     keywords = ["data+science", "développement+web", "admin+système", "devops", "machine+learning"]
     headers = {'referer': domain}
